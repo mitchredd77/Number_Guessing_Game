@@ -31,6 +31,7 @@ def start_game():
        except:
           print("There was an error with your guess, please try again.")
           continue
+          
 ### When answer is correct, add score to scores list, and ask if they would like to play again
        if num_guess == ran_num:
             print("{} is the correct number!".format(num_guess))
